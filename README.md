@@ -63,21 +63,24 @@ npm start
 
 ---
 📄 Usage
-1)Job Entry
-Open the web app in your browser (default: http://localhost:3000).
-Fill in job details in the form and submit.
 
-2)Job Listings
-To view job listings, append /jobs to the URL:
-http://localhost:3000/jobs
-Use the search and filter options to refine results.
+🔹 Job Entry
+Open the web app in your browser (default: http://localhost:3000).
+Fill in the job details in the form.
+Submit the form to add a job listing.
+
+🔹 Job Listings
+Append /jobs to the URL (e.g. http://localhost:3000/jobs).
+View all available job listings.
+Use search and filter options to refine the results.
 
 ---
 
-📜 Flow of Job Entry
-User fills job entry form in JobEntry.js.
-Data is validated on the frontend.
-Axios sends a POST request to backend API.
-Backend inserts data into MySQL database.
-Backend responds with success/failure.
-UI updates or displays a notification.
+Flow of Job Entry:
+* 📝 **User fills** the job entry form in `JobEntry.js`.
+* ✅ **Frontend validates** the input data.
+* 📡 **Axios sends** a `POST` request to the backend API.
+* 💾 **Backend inserts** the job details into the MySQL database.
+* 📬 **Backend responds** with success or failure.
+* 🔄 **UI updates** or displays a notification based on the response.
+
