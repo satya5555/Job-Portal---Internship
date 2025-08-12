@@ -61,6 +61,7 @@ npm install
 npm start
 ```
 
+---
 📄 Usage
 1)Job Entry
 Open the web app in your browser (default: http://localhost:3000).
@@ -71,6 +72,7 @@ To view job listings, append /jobs to the URL:
 http://localhost:3000/jobs
 Use the search and filter options to refine results.
 
+---
 
 📜 Flow of Job Entry
 User fills job entry form in JobEntry.js.
