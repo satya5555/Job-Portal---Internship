@@ -1,0 +1,156 @@
+export const inputFormElements = [
+    {
+        category: "Job Details",
+        name: "JobId",
+        placeholder: "Enter Job ID",
+        label: "Job ID",
+        variant: "outlined",
+        fullWidth: true,
+        required: false,
+        xs: 12,
+        sm: 6
+    },
+    {
+        category: "Job Details",
+        name: "RoleName",
+        placeholder: "Enter Role Name",
+        label: "Role Name",
+        variant: "outlined",
+        fullWidth: true,
+        required: true,
+        xs: 12,
+        sm: 6
+    },
+    {
+        category: "Job Details",
+        name: "CompanyName",
+        placeholder: "Enter Company Name",
+        label: "Company Name",
+        variant: "outlined",
+        fullWidth: true,
+        required: true,
+        xs: 12,
+        sm: 6
+    },
+    {
+        category: "Job Details",
+        name: "JobType",
+        placeholder: "Enter Job Type",
+        label: "Job Type",
+        variant: "outlined",
+        fullWidth: true,
+        required: true,
+        xs: 12,
+        sm: 6
+    },
+    {
+        category: "Job Details",
+        name: "CTC",
+        placeholder: "Enter CTC",
+        label: "CTC",
+        variant: "outlined",
+        fullWidth: true,
+        required: false,
+        xs: 12,
+        sm: 6
+    },
+    {
+        category: "Job Details",
+        name: "Location",
+        placeholder: "Enter Location",
+        label: "Location",
+        variant: "outlined",
+        fullWidth: true,
+        required: true,
+        xs: 12,
+        sm: 6
+    },
+    {
+        category: "Posted Date",
+        name: "PostedDate",
+        label: "Posted Date",
+        type: "date",
+        variant: "outlined",
+        fullWidth: true,
+        required: false,
+        xs: 12,
+        sm: 6
+    },
+    {
+        category: "Company Requirements",
+        name: "Experience",
+        placeholder: "Enter Experience",
+        label: "Experience",
+        variant: "outlined",
+        fullWidth: true,
+        required: true,
+        xs: 12,
+        sm: 6
+    },
+    {
+        category: "Company Requirements",
+        name: "SkillSet",
+        placeholder: "Enter Skill Set",
+        label: "Skill Set",
+        variant: "outlined",
+        fullWidth: true,
+        required: true,
+        xs: 12,
+        sm: 6
+    },
+    {
+        category: "Company Requirements",
+        name: "EducationQualification",
+        placeholder: "Enter Education Qualification",
+        label: "Education Qualification",
+        variant: "outlined",
+        fullWidth: true,
+        required: false,
+        xs: 12,
+        sm: 6
+    },
+    {
+        category: "Links",
+        name: "ApplyNowLink",
+        placeholder: "Enter Apply Now Link",
+        label: "Apply Now Link",
+        variant: "outlined",
+        fullWidth: true,
+        required: false,
+        xs: 12,
+        sm: 6
+    },
+    {
+        category: "Others",
+        name: "Remarks",
+        placeholder: "Enter Remarks",
+        label: "Remarks",
+        variant: "outlined",
+        fullWidth: true,
+        required: false,
+        xs: 12,
+        sm: 6
+    },
+    {
+        category: "Others",
+        name: "Noofopening",
+        placeholder: "Enter Number of Openings",
+        label: "Number of Openings",
+        variant: "outlined",
+        fullWidth: true,
+        required: false,
+        xs: 12,
+        sm: 6
+    },
+    {
+        category: "Job Details",
+        name: "JD",
+        placeholder: "Enter Job Description",
+        label: "Job Description",
+        variant: "outlined",
+        fullWidth: true,
+        required: false,
+        xs: 12,
+        sm: 6
+    },
+];
